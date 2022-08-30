@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 15px;
+    border: 5px solid rgba(23, 19, 35, 0.721);
+    border-radius: 8px;
+    max-width: 33vw;
+    height: 85vh;
+    gap: 10px;
+    background-color: black;
+} 
+p{ 
+    padding: 5%;
+    height: 20vh;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(131, 202, 246);
+    background-color: rgba(56, 79, 99, 0.47);
+    border-radius: 10px;
+}
