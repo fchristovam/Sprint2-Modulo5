@@ -1,14 +1,16 @@
 .menu{
+    margin-top: 70px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 20vw;
     text-align: center;
     gap: 50px;
 }
 p{
-  padding: 15px;
-  border: solid 2px;
-  border-color: chartreuse;  
+    padding: 15px;
+    border: solid 2px;
+    border-color: chartreuse;  
 }
 
 /* *{

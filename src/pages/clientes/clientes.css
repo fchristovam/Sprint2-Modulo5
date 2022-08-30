@@ -1,0 +1,7 @@
+.clientes-container{
+margin-left: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: xx-small;
+}

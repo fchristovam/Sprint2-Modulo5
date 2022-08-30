@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { Link } from 'react-router-dom'
 import { ContextCliente } from "../../context/ContextCliente"
+import './clientes.css'
 
 const Clientes = () => {
 const { clientes } = useContext(ContextCliente)

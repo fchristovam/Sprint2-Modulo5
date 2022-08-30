@@ -41,8 +41,8 @@ return (
             <p>Renda Mensal: {cliente[0].Renda_Mensal}</p>
         </div>   
         <div className="botoes">
-            <Link to='/clientes' ><button>Voltar</button></Link>
-            <button onClick={(e)=> {deletarCliente(e)}}>Deletar Cadastro</button>
+            <Link to='/clientes' ><button className="btn-voltar">Voltar</button></Link>
+            <button className="btn-delete" onClick={(e)=> {deletarCliente(e)}}>Deletar Cadastro</button>
         </div>  
     </div>
     )}
