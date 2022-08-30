@@ -1,3 +1,16 @@
-.form{
-    background-color: black;
+.cad-form{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.titleForm{
+    color: red;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }

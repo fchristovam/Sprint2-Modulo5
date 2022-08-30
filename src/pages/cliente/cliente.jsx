@@ -30,14 +30,15 @@ return (
     <div className="cliente-container">
     <h1>Detalhes do Cliente</h1>
         <div>
-            <p>Nome: {cliente[0].nome} {cliente[0].sobrenome}</p>
-            <p>E-mail: {cliente[0].email}</p>
-            <p>Telefone: {cliente[0].telefone}</p>
-            <p>Endereço1: {cliente[0].endereco1}</p>
-            <p>Endereço2: {cliente[0].endereco2}</p>
-            <p>Data de Nascimento: {cliente[0].nascimento}</p>
-            <p>CPF: {cliente[0].cpf}</p>
-            <p>Renda Mensal: {cliente[0].renda_mensal}</p>
+            <p>Nome: {cliente[0].Nome} {cliente[0].Sobrenome}</p>
+            <p>E-mail: {cliente[0].Email}</p>
+            <p>Telefone: {cliente[0].Telefone}</p>
+            <p>CEP: {cliente[0].CEP}</p>
+            <p>Endereco1: {cliente[0].Endereco1}</p>
+            <p>Endereco2: {cliente[0].Endereco2}</p>
+            <p>Data de Nascimento: {cliente[0].Data_Nascimento}</p>
+            <p>CPF: {cliente[0].CPF}</p>
+            <p>Renda Mensal: {cliente[0].Renda_Mensal}</p>
         </div>   
         <div className="botoes">
             <Link to='/clientes' ><button>Voltar</button></Link>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=DM+Sans:wght@400;500;700&family=Dancing+Script&family=Koulen&family=PT+Sans+Narrow&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Pacifico&display=swap');
 *{
 text-decoration: none;
 margin: 0;
@@ -6,5 +6,5 @@ padding: 0;
 background-color: black; 
 color: white;
 font-size: 30px;
-font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Aboreto';
 }

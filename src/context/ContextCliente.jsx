@@ -4,10 +4,16 @@ export const ContextCliente = createContext();
 
 export const ContextClienteProvider = ({ children }) => {
     const [clientes, setClientes] = useState([{
-        Nome: "teste",
-        Sobrenome: "teste",
-        Email: "teste",
-        Telefone: "teste"
+        Nome: "nome",
+        Sobrenome: "sobrenome",
+        Email: "email",
+        Telefone: "telefone",
+        CEP: "cep",
+        Endereço1: "endereco1",
+        Endereço2: "endereco2",
+        Data_Nascimento: "data_nascimento",
+        CPF: "cpf",
+        Renda_Mensal: "renda_mensal"
     }]);
     return (
         <ContextCliente.Provider value={{ clientes, setClientes }}>

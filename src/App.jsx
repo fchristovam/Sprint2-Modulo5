@@ -8,6 +8,7 @@ import Cadastro from './pages/cadastro/cadastro';
 import Clientes from './pages/clientes/clientes';
 import Cliente from './pages/cliente/cliente';
 import Erro from './components/erro/erro';
+import './App.css'
 
 
 
